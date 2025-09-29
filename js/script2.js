@@ -46,7 +46,7 @@
         }
 
         let products = [
-            { id: 1, title: "Watch 32", category: "advanced watch",catID:"advancedWatch", color: "silver", price: 200, currency: "$", imageUrl: "images/w32.jpg" },
+            { id: 1, title: "Watch 32", category: "advanced watch",catID:"advancedWatch", color: "silver", price: 200, currency: "$", imageUrl: "js1/images/w32.jpg" },
             { id: 2, title: "Rolex Watch", category: "advanced watch",catID:"advancedWatch", color: "gold", price: 250, currency: "$", imageUrl: "images/Rolex-watch.JPG" },
             { id: 3, title: "Oppo Reno 7", category: "Mobile", catID:"Mobile",color: "black", price: 500, currency: "$", imageUrl: "images/oppo reno 7.jpg" },
             { id: 4, title: "iPhone 15", category: "Mobile", catID:"Mobile",color: "white", price: 600, currency: "$", imageUrl: "images/IPhone-15-2.PNG" },
@@ -389,6 +389,7 @@ console.log('there is no data')
 
 
         ///////////////////////////////////////////////////////////////
+
 
 
 
