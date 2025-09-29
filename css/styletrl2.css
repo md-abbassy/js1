@@ -1,0 +1,204 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+/* ////////////////////////////////////// */
+.container {
+    width: 80%;
+    margin: auto;
+}
+header {
+    height: 70px;
+    background-color: rgb(217, 217, 217);
+    padding: 10px 0;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content  .brand {
+    font-size: 32px;
+    text-decoration: none;
+    color: #424242;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+nav  li a {
+    display: block;
+    color: #0105fb;
+    min-width: 80px;
+    /* background-color: blue; */
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+/* **********************form***************************** */
+.section-form {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 45%;
+    text-align: center;
+    background-color: green;
+    padding: 20px;
+}
+.section-form  h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color:purple;
+}
+.section-form  form input {
+    display: block;
+    width:100%;
+    margin: 5px 0;
+    height: 30px;
+    border: 1px  solid #ddd;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+
+.section-form form  input[type="submit"] {
+    font-size: 25px;
+    text-transform: uppercase;
+    height: auto;
+    cursor: pointer;
+}
+.section-form form  input[type="submit"]:hover {
+    opacity: .5;
+}
+
+nav  ul#user_info {
+    display: none;
+}
+
+
+.filter-controls{
+    margin-left: 190px;
+}
+
+
+
+/* /////////////////////////////////////////// */
+.search-container {
+    max-width: 1400px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.filter-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-input, .category-select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 1250px;
+    box-sizing: border-box;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product_card_img {
+    position: absolute;
+    background-color: #acacac;
+    top: -10px;
+    left: 00px;
+    width: 100%;
+    height: 60%;;
+    /* margin-right:10px ; */
+}
+
+.product-card h3 {
+    margin-top: 65%;
+}
+
+.product-card p {
+    color: #555;
+}
+.btn1{
+    height: 30px;
+    width: 120px;
+}
+
+.no-results {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1.2em;
+    color: #888;
+}
+
+
+
+
+
+
+
+/* ... (existing CSS remains the same) ... */
+.filter-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.search-input, .category-select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.search-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+/* ... (remaining CSS) ... */
