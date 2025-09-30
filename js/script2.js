@@ -54,7 +54,7 @@
             { id: 6, title: "iphone 16pro max", category: "Mobile", catID:"Mobile",color: "bronze", price: 700, currency: "$", imageUrl: "images/iphone-16-pro-max2.png" },
             { id: 7, title: "Car 19", category: "toy car", catID:"toyCar",color: "dark blue", price: 1000, currency: "$", imageUrl: "images//car19.jpg" },
             { id: 8, title: "Car 20", category: "toy car", catID:"toyCar",color: "red", price: 90, currency: "$", imageUrl: "images/bmw.jpg" },
-            { id: 9, title: "car 21", category: "toy car", catID:"toyCar",color: "green", price: 300, currency: "$", imageUrl: "images//car20.jpg" }
+            { id: 9, title: "car 21", category: "toy car", catID:"toyCar",color: "green", price: 300, currency: "$", imageUrl: "images//car20.jpg" },
         ];
 
         // كائن لتخزين كميات المنتجات في الصفحة
@@ -389,6 +389,7 @@ console.log('there is no data')
 
 
         ///////////////////////////////////////////////////////////////
+
 
 
 
