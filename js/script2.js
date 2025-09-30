@@ -47,11 +47,11 @@
 
         let products = [
             { id: 1, title: "Watch 32", category: "advanced watch",catID:"advancedWatch", color: "silver", price: 200, currency: "$", imageUrl: "js1/images/w32.jpg" },
-            { id: 2, title: "Rolex Watch", category: "advanced watch",catID:"advancedWatch", color: "gold", price: 250, currency: "$", imageUrl: "images/rolex-watch.JPG" },
+            { id: 2, title: "Rolex Watch", category: "advanced watch",catID:"advancedWatch", color: "gold", price: 250, currency: "$", imageUrl: "images/rolex-watch.jpg" },
             { id: 3, title: "Oppo Reno 7", category: "Mobile", catID:"Mobile",color: "black", price: 500, currency: "$", imageUrl: "images/oppo reno 7.jpg" },
-            { id: 4, title: "iPhone 15", category: "Mobile", catID:"Mobile",color: "white", price: 600, currency: "$", imageUrl: "images/iphone-15-2.PNG" },
+            { id: 4, title: "iPhone 15", category: "Mobile", catID:"Mobile",color: "white", price: 600, currency: "$", imageUrl: "images/iphone-15-2.png" },
             { id: 5, title: "Samsung S25", category: "Mobile", catID:"Mobile",color: "gray", price: 550, currency: "$", imageUrl: "images/samsung-galaxy-s25-ultra.png" },
-            { id: 6, title: "iphone 16pro max", category: "Mobile", catID:"Mobile",color: "bronze", price: 700, currency: "$", imageUrl: "images/iphone-16-pro-max2.PNG" },
+            { id: 6, title: "iphone 16pro max", category: "Mobile", catID:"Mobile",color: "bronze", price: 700, currency: "$", imageUrl: "images/iphone-16-pro-max2.png" },
             { id: 7, title: "Car 19", category: "toy car", catID:"toyCar",color: "dark blue", price: 1000, currency: "$", imageUrl: "images//car19.jpg" },
             { id: 8, title: "Car 20", category: "toy car", catID:"toyCar",color: "red", price: 90, currency: "$", imageUrl: "images/bmw.jpg" },
             { id: 9, title: "car 21", category: "toy car", catID:"toyCar",color: "green", price: 300, currency: "$", imageUrl: "images//car20.jpg" }
@@ -389,6 +389,7 @@ console.log('there is no data')
 
 
         ///////////////////////////////////////////////////////////////
+
 
 
 
